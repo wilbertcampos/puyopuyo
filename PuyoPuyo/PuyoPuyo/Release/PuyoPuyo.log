@@ -1,0 +1,44 @@
+﻿Compilación iniciada a las 09/07/2013 11:07:02 p.m..
+Proyecto "C:\Users\Usuario\Desktop\PuyoPuyo3\PuyoPuyo\PuyoPuyo\PuyoPuyo\PuyoPuyo.vcxproj" en el nodo 2 (build destinos).
+PrepareForBuild:
+  Creando directorio "C:\Users\Usuario\Desktop\PuyoPuyo3\PuyoPuyo\PuyoPuyo\Release\".
+InitializeBuildStatus:
+  Se creará "Release\PuyoPuyo.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\PuyoPuyo.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+  stdafx.cpp
+  c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\PuyoPuyo.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GamePuyoPuyo.cpp GridEsferas.cpp Primitives.cpp PuyoPuyo.cpp Scene.cpp
+  GamePuyoPuyo.cpp
+GamePuyoPuyo.cpp(10): warning C4244: 'argumento' : conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  GridEsferas.cpp
+GridEsferas.cpp(44): warning C4018: '<' : no coinciden signed/unsigned
+GridEsferas.cpp(49): warning C4018: '<' : no coinciden signed/unsigned
+GridEsferas.cpp(238): warning C4018: '<' : no coinciden signed/unsigned
+GridEsferas.cpp(243): warning C4018: '<' : no coinciden signed/unsigned
+  Primitives.cpp
+Primitives.cpp(14): warning C4305: '=' : truncamiento de 'double' a 'float'
+  PuyoPuyo.cpp
+  Scene.cpp
+ResourceCompile:
+  c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\PuyoPuyo.res" PuyoPuyo.rc 
+Link:
+  c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Usuario\Desktop\PuyoPuyo3\PuyoPuyo\PuyoPuyo\Release\PuyoPuyo.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\PuyoPuyo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Usuario\Desktop\PuyoPuyo3\PuyoPuyo\PuyoPuyo\Release\PuyoPuyo.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Usuario\Desktop\PuyoPuyo3\PuyoPuyo\PuyoPuyo\Release\PuyoPuyo.lib" /MACHINE:X86 Release\PuyoPuyo.res
+  Release\GamePuyoPuyo.obj
+  Release\GridEsferas.obj
+  Release\Primitives.obj
+  Release\PuyoPuyo.obj
+  Release\Scene.obj
+  Release\stdafx.obj
+  Generando código
+  Generación de código finalizada
+  PuyoPuyo.vcxproj -> C:\Users\Usuario\Desktop\PuyoPuyo3\PuyoPuyo\PuyoPuyo\Release\PuyoPuyo.exe
+Manifest:
+  c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Usuario\Desktop\PuyoPuyo3\PuyoPuyo\PuyoPuyo\Release\PuyoPuyo.exe;#1" /manifest Release\PuyoPuyo.exe.intermediate.manifest
+FinalizeBuildStatus:
+  Se eliminará el archivo "Release\PuyoPuyo.unsuccessfulbuild".
+  Aplicando tarea Touch a "Release\PuyoPuyo.lastbuildstate".
+Compilación del proyecto terminada "C:\Users\Usuario\Desktop\PuyoPuyo3\PuyoPuyo\PuyoPuyo\PuyoPuyo\PuyoPuyo.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:04.20
